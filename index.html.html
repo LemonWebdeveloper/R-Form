@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive registration form</title>
+    <link rel="stylesheet" href="responsiveFORMstyle.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Registraion Form</h2>
+        <div class="wrapper-form">
+            <form>
+                <div class="input-name">
+                    <i class="fa fa-user lock" aria-hidden="true"></i>
+                    <input type="text" placeholder="First Name" class="name" required>
+                    <span>
+                        <i class="fa fa-user lock" aria-hidden="true"></i>
+                        <input type="text" placeholder="Last Name" class="name">
+                    </span>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-envelope email" aria-hidden="true"></i>
+                    <input type="email" placeholder="Enter your email" class="text-name" required>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-lock lock" aria-hidden="true"></i>
+                    <input type="password" placeholder="Password" class="text-name" required>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-lock lock" aria-hidden="true"></i>
+                    <input type="password" placeholder="Confirm password" class="text-name" required>
+                </div>
+                <div class="input-name">
+                    <input type="radio" class="radio-button" name="gender" value="Male" required>
+                    <label style="margin-right: 30px;">Male</label>
+                    <input type="radio" class="radio-button" name="gender" value="Female" required>
+                    <label for="">Female</label>
+                </div>
+
+                <div class="input-name">
+                    <select name="" id="" class="country" required>
+                        <option selected value="">Select a division</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Chattogram">Chattogram</option>
+                        <option value="Barishal">Barishal</option>
+                        <option value="Khulna">Khulna</option>
+                        <option value="Rajshahi">Rajshahi</option>
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Mymensingh">Mymensingh</option>
+                        <option value="Sylhet">Sylhet</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+
+                <div class="input-name">
+                    <input type="checkbox" class="check-button" required>
+                    <label for="check-button"  class="che">I accept the terms and conditions</label>
+                </div>
+                <div class="input-name">
+                    <input type="submit" class="button1" value="Register">
+                    <input type="reset" class="button2" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
